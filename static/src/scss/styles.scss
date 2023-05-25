@@ -1,0 +1,132 @@
+.container {
+    // margin: 0 !important;
+    // padding: 0 !important;
+    // width: 100vw;
+}
+.row {
+    width: 100vw;
+}
+
+.containers {
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-top: 20px !important;
+}
+
+.trend-search {
+    margin-top: 12px;
+}
+
+@media screen and (min-width:576px){
+    .carousel-inners {
+        display: flex;
+    }
+    .carousel-items {
+        flex: 0 0 calc(100%/6);
+        margin-right: 0;
+        display: block;
+    }
+}
+
+.carousel-inners {
+    padding: 1em;
+}
+
+.card {
+    margin: 0.5em;
+}
+
+.img-wrapper {
+    min-height: 100%;
+    // height: 23vh;
+   // width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.card-slide {
+    border: none;
+}
+
+// .carousel-control-next,
+// .carousel-control-prev /*, .carousel-indicators */ {
+//     filter: invert(100%);
+// }
+
+.card-text {
+    text-align: center;
+}
+
+.img-top {
+    width: 109px;
+    height: 109px;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-menu.show {
+    display: flex;
+    // width: 100vw;
+}
+
+.dropdown-menu li:first-child a {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.dropdown-menu li a {
+    // color: gray;
+    padding: .5em 1em;
+}
+.dropdown-menu li a:hover {
+    color: #e5bd5f;
+}
+
+.dropdown-item:hover {
+    background-color: #fff;
+}
+
+.dropdown-menu {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border: none;
+    border-radius: 0;
+    padding: 0.7em;
+  }
+
+//  .li-menu {
+//     font-size: 12px;
+//     color: #282828;
+//  }
+
+//  .img-text {
+//     // width: 100%;
+//     // height: 300px;
+//     display: block;
+//     text-align: center;
+//     // padding: 40% 5%;
+//     // background: #262626;
+//     // color: #fff;
+//     // border-radius: 15px;
+//  }
+
+//  .img-text p {
+//     font-size: 12px;
+//  }
+
+//  .sigle-box {
+//     position: relative;
+//     margin-bottom: 30px;
+//  }
+
+//  .img-area {
+//     position: absolute;
+//  }
+
+//  .carousel-indicators {
+//     left: 0;
+//     top: auto;
+//     bottom: -70px;
+//  }

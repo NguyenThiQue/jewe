@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="custom_footer" inherit_id="website.layout" name="Custom Footer">
+        <xpath expr="//footer" position="replace">
+            <footer style="width:600px">
+                <div class="container py-4" >
+                    <img style="width: 120px;" src="test/static/img/pnj.com.vn.png"/>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="content">
+                                <p style="font-weight: 600; color: #4f4949;">© 2017 Công Ty Cổ Phần Vàng Bạc Đá Quý Phú Nhuận</p>
+                                <p>170E Phan Đăng Lưu, P.3, Q.Phú Nhuận, TP.Hồ Chí Minh</p>
+                                <!-- <br></br> -->
+                                "ĐT: "
+                                <a href="tel:02839951703" >02839951703</a>
+                                " - Fax: "
+                                <a href="tel:02839951702" >02839951702</a>
+                                <p>
+                                    <a href="https://cdn.pnj.io/images/quan-he-co-dong/2023/10b-20230207-PNJ-GCN-DKDN-lan-35-CBTT-File-nhe.pdf">Giấy chứng nhận đăng ký doanh nghiệp: 0300521758</a>
+                                </p>
+                                <p>
+                                    <!-- <br> -->
+                                    "Tổng đài hỗ trợ (08:00-21:00, miễn phí gọi) "
+                                    <!-- </br> -->
+                                    <br></br>
+                                    "Gọi mua: "
+                                <a href="tel:1800545457" >1800545457</a>
+                                    " (phím 1) "
+                                    <br>
+                                    "Khiếu nại: "
+                                <a href="tel:1800545457" >1800545457</a>
+                                     " (phím 2) "
+                                     </br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <!-- <h2> -->
+                                <span style="font-weight: 700;color: #282828;">VỀ PNJ</span>
+                                <!-- <div> -->
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Câu chuyện PNJ</a></li>
+                                        <li><a href="#">Tuyển dụng</a></li>
+                                        <li><a href="#">Xuất khẩu</a></li>
+                                        <li><a href="#">Kinh doanh sỉ</a></li>
+                                        <li><a href="#">Kiểm định kim cương</a></li>
+                                        <li><a href="#">Kinh doanh vàng miếng</a></li>
+                                    </ul>
+                                <!-- </div> -->
+                            <!-- </h2> -->
+                        </div>
+                        <div class="col-lg-3">
+                            <!-- <h2> -->
+                                <span style="font-weight: 700;color: #282828;">DỊCH VỤ KHÁCH HÀNG</span>
+                                <!-- <div> -->
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Hướng dẫn đo size trang sức</a></li>
+                                        <li><a href="#">Mua hàng trả góp</a></li>
+                                        <li><a href="#">Hướng dẫn mua hàng và thanh toán</a></li>
+                                        <li><a href="#">Chính sách hoàn tiền</a></li>
+                                        <li><a href="#">Chính sách giao hàng</a></li>
+                                        <li><a href="#">Cẩm nang sử dụng trang sức</a></li>
+                                        <li><a href="#">Chính sách bảo hành thu đổi</a></li>
+                                        <li><a href="#">Chính sách khách hàng thân thiết</a></li>
+                                        <li><a href="#">Chính sách bảo mật thông tin khách hàng</a></li>
+                                        <li><a href="#">Câu hỏi thường gặp</a></li>
+                                    </ul>
+                                <!-- </div> -->
+                            <!-- </h2> -->
+                        </div>
+                        <div class="col-lg-3">
+                            <!-- <h2> -->
+                                <span style="font-weight: 700;color: #282828;">KẾT NỐI VỚI CHÚNG TÔI</span>
+                            <!-- </h2> -->
+                            <div style="padding-bottom:20px; padding-top:10px; ">
+                                <img src="test/static/img/facebook.svg" style="width: 35px; height:35px" />
+                                <img src="test/static/img/instagram.svg" style="width: 35px; height:35px"/>
+                                <img src="test/static/img/youtube.svg" style="width: 35px; height:35px"/>
+                                <img src="test/static/img/email.svg" style="width: 35px; height:35px"/>
+                            </div>
+                            <span style="font-weight: 700;color: #282828;">QUAN TÂM ZALO OA PNJ</span>
+                            <p >Nhận các thông tin khuyến mãi hấp dẫn</p>
+                            <div style="background-color:#03a5fa; max-width:100px; border-radius:2px">
+                                <img src="test/static/img/logo_white_s_2x.png" style="width: 20px; height:20px"/>
+                                <span>Quan tâm</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </xpath>
+    </template>
+</odoo>

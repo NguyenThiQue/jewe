@@ -1,0 +1,28 @@
+<odoo> ​<template id="que_block" name="Header">
+        <!-- Html đc bao phủ bởi phần section --> ​<section>
+            <div>
+                <div id="header">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid text-center">
+                            <div style="border-bottom: 1px solid #d9d9d9; width: 100%;">
+                                <a href="http://localhost:8069/" style="color: black;">Trang chủ / </a>
+                                <a style="color: black;">Quan hệ cổ đông / </a>
+                                <a style="font-weight: 600;color: black;">Đại hội đồng cổ đông</a>
+                                <p style="text-align: left;">Đại hội đồng cổ đông</p>
+                            </div>
+                            
+                        </div>
+                    </nav>
+                    <div class="container text-center">
+                                <ul style="list-style: none; color:#e5bd5f;">
+                                    <li>Đại hội đồng cổ đông năm 2023</li>
+                                    <li>Đại hội đồng cổ đông năm 2022</li>
+                                    <li>Đại hội đồng cổ đông năm 2021</li>
+                                    <li>Đại hội đồng cổ đông năm 2020</li>
+                                    <li>Đại hội đồng cổ đông năm 2019</li>
+                                </ul>
+                            </div>
+                </div>
+            </div>
+    ​</section> ​</template>
+</odoo>

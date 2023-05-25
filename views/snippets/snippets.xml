@@ -1,0 +1,9 @@
+<odoo>
+	<template id="test" inherit_id="website.snippets" name="Trung Block">
+        	<xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                                     	​	​	​<!-- ngay chổ này nè  -->
+            		<t t-snippet="test.trung_block"
+                	t-thumbnail="/website/static/src/img/snippets_thumbs/s_cover.jpg" />
+        	​s</xpath>
+    	</template>
+</odoo>

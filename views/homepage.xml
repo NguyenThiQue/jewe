@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="custom_homepage" inherit_id="website.homepage" name="Custom Homepage">
+        <xpath expr="//t[@t-call='website.layout']" position="replace">
+            <t t-call="website.layout">
+                <t t-set="pageName" t-valuef="'homepage'" />
+
+                <div id="wrap" class="oe-structure"></div>
+                <div id="wrap" class="oe_structure oe_empty">
+                    <section
+                        class=""
+                        data-scroll-background-ratio="1" data-snippet="s_cover"
+                        style="padding: 0 !important;">
+
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark"
+                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                    aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark"
+                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark"
+                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="test/static/img/egift-2023-1972x640CTA.jpg"
+                                        class="d-block w-100" alt="..." />
+
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="test/static/img/banner.jpg" class="d-block w-100"
+                                        alt="..." />
+
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="test/static/img/banner2.jpg" class="d-block w-100"
+                                        alt="..." />
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                    <section class=""
+                        data-scroll-background-ratio="1" data-snippet="s_cover"
+                        style="padding: 0 !important;">
+                        <div class="container px-4 containers">
+                            <div class="row gx-5">
+                                <!-- <div class="col-sm-4"> -->
+                                <!-- <div class="p-4"> -->
+                                <a class="col-sm-4">
+                                    <img class="" src="test/static/img/banner3.jpg"
+                                        style="width: 408px;height: 204px;" />
+                                </a>
+                                <!-- </div> -->
+                                <!-- </div> -->
+                                <!-- <div class="col-sm-4"> -->
+                                <!-- <div class="p-4"> -->
+                                <a class="col-sm-4">
+                                    <img class="" src="test/static/img/banner4.jpg"
+                                        style="width: 408px;height: 204px;" />
+                                </a>
+                                <!-- </div> -->
+                                <!-- </div> -->
+                                <!-- <div class="col-sm-4"> -->
+                                <!-- <div class="p-4"> -->
+                                <a class="col-sm-4">
+                                    <img class="" src="test/static/img/banner5.jpg"
+                                        style="width: 408px;height: 204px;" />
+                                </a>
+                                <!-- </div> -->
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </section>
+                    <section style="width:600px">
+                        <div class="container">
+                            <div class="row">
+                                <div class="trend-search">
+                                    <h5 style="margin-left:56px">Xu hướng tìm kiếm</h5>
+                                    <div id="carouselExampleIndicators" class="carousel slide">
+                                        <div class="carousel-indicators">
+                                            <button type="button"
+                                                data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="0" class="active"
+                                                aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button"
+                                                data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button"
+                                                data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+                                            <button type="button"
+                                                data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="3" class="active"
+                                                aria-current="true" aria-label="Slide 3"></button>
+                                            <button type="button"
+                                                data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="4" aria-label="Slide 4"></button>
+                                            <button type="button"
+                                                data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="5" aria-label="Slide 5"></button>
+                                            <button type="button"
+                                                data-bs-target="#carouselExampleIndicators"
+                                                data-bs-slide-to="6" aria-label="Slide 6"></button>
+                                        </div>
+                                        <div class="carousel-inner carousel-inners">
+                                            <div class="carousel-item carousel-items active">
+                                                <div class="row g-2">
+                                                    <div class="col-2">
+                                                        <div class="p-3">
+                                                            <div class="card card-slide" style="">
+                                                                <div class="img-wrapper">
+                                                                    <img
+                                                                        src="test/static/img/nhan-vang.png"
+                                                                        class="card-img-top img-top"
+                                                                        alt="..." />
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    <p class="card-text">Nhẫn vàng</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <div class="p-3">
+                                                            <div class="card card-slide" style="">
+                                                                <div class="img-wrapper">
+                                                                    <img
+                                                                        src="test/static/img/vong-lac-tay-bac.png"
+                                                                        class="card-img-top img-top"
+                                                                        alt="..." />
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    <p class="card-text">Vòng lắc
+                                                                        tay bạc</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <div class="p-3">
+                                                            <div class="card card-slide" style="">
+                                                                <div class="img-wrapper">
+                                                                    <img
+                                                                        src="test/static/img/nhan-ecz.png"
+                                                                        class="card-img-top img-top"
+                                                                        alt="..." />
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    <p class="card-text">Nhẫn-ECZ</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <div class="p-3">
+                                                            <div class="card card-slide" style="">
+                                                                <div class="img-wrapper">
+                                                                    <img
+                                                                        src="test/static/img/bong-tai-bac.png"
+                                                                        class="card-img-top img-top"
+                                                                        alt="..." />
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    <p class="card-text">Bông tai
+                                                                        bạc</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <div class="p-3">
+                                                            <div class="card card-slide" style="">
+                                                                <div class="img-wrapper">
+                                                                    <img
+                                                                        src="test/static/img/dong-ho.png"
+                                                                        class="card-img-top img-top"
+                                                                        alt="..." />
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    <p class="card-text">Đồng hồ</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <div class="p-3">
+                                                            <div class="card card-slide" style="">
+                                                                <div class="img-wrapper">
+                                                                    <img
+                                                                        src="test/static/img/nhan-cuoi.png"
+                                                                        class="card-img-top img-top"
+                                                                        alt="..." />
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    <p class="card-text">Nhẫn cưới</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            
+                                            <!-- <div class="carousel-item carousel-items">
+                                                <div class="card card-slide" style="">
+                                                    <div class="img-wrapper">
+                                                        <img
+                                                            src="test/static/img/vong-lac-tay-bac.png"
+                                                            class="card-img-top img-top" alt="..." />
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <p class="card-text">Vòng lắc tay bạc</p>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+                                            <!-- <div class="carousel-item carousel-items">
+                                                <div class="card card-slide" style="">
+                                                    <div class="img-wrapper">
+                                                        <img src="test/static/img/nhan-ecz.png"
+                                                            class="card-img-top img-top" alt="..." />
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <p class="card-text">Nhẫn-ECZ</p>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+                                            <!-- <div class="carousel-item carousel-items">
+                                                <div class="card card-slide" style="">
+                                                    <div class="img-wrapper">
+                                                        <img src="test/static/img/nhan-cuoi.png"
+                                                            class="card-img-top img-top" alt="..." />
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <p class="card-text">Nhẫn cưới</p>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+                                            <!-- <div class="carousel-item carousel-items">
+                                                <div class="card card-slide" style="">
+                                                    <div class="img-wrapper">
+                                                        <img src="test/static/img/dong-ho.png"
+                                                            class="card-img-top img-top" alt="..." />
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <p class="card-text">Đồng hồ</p>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+                                            <!-- <div class="carousel-item carousel-items">
+                                                <div class="card card-slide" style="">
+                                                    <div class="img-wrapper">
+                                                        <img src="test/static/img/bong-tai-bac.png"
+                                                            class="card-img-top img-top" alt="..." />
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <p class="card-text">Bông tai bạc</p>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+                                            <div class="carousel-item carousel-items">
+                                                <div class="card card-slide" style="">
+                                                    <div class="img-wrapper">
+                                                        <img
+                                                            src="test/static/img/bong-tai-kim-cuong.png"
+                                                            class="card-img-top img-top" alt="..." />
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <p class="card-text">Bông tai kim cương</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon"
+                                                aria-hidden="true" style=""></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide="next">
+                                            <span class="carousel-control-next-icon"
+                                                aria-hidden="true" style="margin-right: -108px;"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="container">
+                            <div class="trend-search">
+                                <h5>Thương hiệu nổi bật</h5>
+                                <div id="carouselExample" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="row g-2">
+                                                <div class="col-4">
+                                                    <div class="p-3">
+                                                        <img
+                                                            src="test/static/img/style-t5-1200x1200.png"
+                                                            class="d-block w-100" alt="..." />
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="p-3">
+                                                        <img
+                                                            src="test/static/img/block-brands-disney.png"
+                                                            class="d-block w-100" alt="..." />
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="p-3">
+                                                        <img
+                                                            src="test/static/img/KV_PNJxHK_1200x1200_banner_homepage_no_logo_no_text.jpg"
+                                                            class="d-block w-100" alt="..." />
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row g-2">
+
+                                                <div class="col-4">
+                                                    <div class="p-3">
+                                                        <img
+                                                            src="test/static/img/block-brands-disney.png"
+                                                            class="d-block w-100" alt="..." />
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="p-3">
+                                                        <img
+                                                            src="test/static/img/block-brands-watch.png"
+                                                            class="d-block w-100" alt="..." />
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="p-3">
+                                                        <img
+                                                            src="test/static/img/style-t5-1200x1200.png"
+                                                            class="d-block w-100" alt="..." />
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <!-- <div class="carousel-item">
+                                            <img src="test/static/img/block-brands-disney.png"
+                                                class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="test/static/img/block-brands-watch.png"
+                                                class="d-block w-100" alt="..." />
+                                        </div> -->
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExample" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"
+                                            aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExample" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"
+                                            aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </t>
+        </xpath>
+    </template>
+</odoo>

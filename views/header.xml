@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="custom_header" inherit_id="website.layout" name="Custom Header">
+      <xpath expr="//header" position="replace">
+         <header>
+            <nav
+               class="navbar navbar-expand-lg bg-body-tertiary shadow-lg p-3 mb-5 bg-white rounded"
+               style="margin:0 !important; height:54px">
+               <div class="container-fluid">
+                  <div>
+                     <a class="navbar-brand" href="http://localhost:8069/quanhecodong">
+                        <img src="test/static/img/relationship.svg" />
+                        <span style="color:#4d4d4d; font-size: 13px;text-transform: capitalize;">Quan
+                           hệ cổ đông (IR)</span>
+                     </a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <a class="navbar-brand" href="#">
+                        <img src="test/static/img/icon-stores-new.svg" />
+                        <span style="color:#4d4d4d; font-size: 13px;text-transform: capitalize;">
+                           Cửa hàng</span>
+                     </a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <a class="navbar-brand" href="#">
+                        <img src="test/static/img/icon-hotline-new.svg" />
+                        <span style="color:#4d4d4d; font-size: 13px;text-transform: capitalize;">
+                           1800 54 54 57</span>
+                     </a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+                  </div>
+                  <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                     <img src="test/static/img/pnj.com.vn.png" style="width: 88px" />
+                  </div>
+                  <div class="">
+                     <a class="navbar-brand" href="#">
+                        <img src="test/static/img/icon-booking-grey.svg" />
+                        <span style="color:#4d4d4d; font-size: 13px;text-transform: capitalize;">
+                           Đặt lịch hẹn</span>
+                     </a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <a class="navbar-brand" href="#">
+                        <img src="test/static/img/history.png"
+                           style="width:25px; height:25px; color:#4d4d4d;" />
+                        <span style="color:#4d4d4d; font-size: 13px;text-transform: capitalize;">
+                           Lịch sử đơn hàng</span>
+                     </a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <a class="navbar-brand" href="#">
+                        <img src="test/static/img/icon-cart-new.svg"
+                           style="width:25px; height:25px; color:#4d4d4d;" />
+                        <span style="color:#4d4d4d; font-size: 13px;text-transform: capitalize;">
+                           Giỏ hàng</span>
+                     </a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+                  </div>
+               </div>
+            </nav>
+            <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary"> -->
+            <div class="container-fluid" style="padding: 0;">
+               <div class="row">
+                  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="height: 56px;">
+                     <!-- <div class="container-fluid"> -->
+
+                     <div class="collapse navbar-collapse" id="navbarScroll">
+                        <div class="col-8" style="display: inherit; margin-top:20px">
+                           <ul class=""
+                              style="display: inherit;list-style-type: none;">
+                              <div class="btn-group">
+                                 <a class="btn dropdown" type="button" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="true" aria-expanded="false">
+                                    Trang sức
+                                 </a>
+                                 <ul class="dropdown-menu dropdown_menu--animated">
+                                    <ul>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Chủng loại</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Nhẫn</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Bông tai</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Lắc</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Vòng</a>
+                                       </li>
+                                    </ul>
+                                    <ul>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Chất liệu</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Vàng</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Bạc</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Platinum</a>
+                                       </li>
+                                    </ul>
+                                    <ul>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Dòng hàng</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Trang sức đính kim cương</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Trang sức đÍnh ECZ</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Trang sức đá quý và bán quý</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Trang sức công nghệ ý</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Trang sức đính ngọc trai</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Trang sức đính CZ</a>
+                                       </li>
+                                    </ul>
+                                    <ul>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Bộ sưu tập</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">DNA Vol 3</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">The heart of gold</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Swetty hello kitty</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Hoa của mẹ</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">True love</a>
+                                       </li>
+                                       <li class="li-menu">
+                                          <a class="dropdown-item" href="#">Trang sức đính CZ</a>
+                                       </li>
+                                    </ul>
+                                 </ul>
+                              </div>
+                              <div class="btn-group">
+                                 <a class="btn" type="button" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="true" aria-expanded="false">
+                                    Trang sức cưới
+                                 </a>
+                                  <ul class="dropdown-menu">
+                                    <!-- <li class="li-menu">
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li> -->
+                                 </ul>
+                              </div>
+                              <div class="btn-group">
+                                 <a class="btn" type="button" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="true" aria-expanded="false">
+                                    Đồng hồ
+                                 </a>
+                                 <ul class="dropdown-menu">
+                                    <!-- <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li> -->
+                                 </ul> 
+                              </div>
+                              <div class="btn-group">
+                                 <a class="btn" type="button" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="true" aria-expanded="false">
+                                    Quà tặng
+                                 </a>
+                                 <ul class="dropdown-menu">
+                                    <!-- <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li> -->
+                                 </ul>
+                              </div>
+                              <div class="btn-group">
+                                 <a class="btn" type="button" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="true" aria-expanded="false">
+                                    Thương hiệu
+                                 </a>
+                                 <ul class="dropdown-menu">
+                                    <!-- <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li> -->
+                                 </ul>
+                              </div>
+                              <div class="btn-group">
+                                 <a class="btn" type="button" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="true" aria-expanded="false">
+                                    Blog
+                                 </a>
+                                  <ul class="dropdown-menu">
+                                    <!-- <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li> -->
+                                 </ul> 
+                              </div>
+                              <!-- <div class="btn-group">
+                                 <a class="btn" type="button" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="true" aria-expanded="false">
+                                    Khuyến mãi
+                                 </a>
+                                 <ul class="dropdown-menu">
+                                   <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="#">Menu item</a>
+                                    </li> -->
+                                 <!-- </ul>
+                              </div> -->
+                              <!-- <li style="margin-right: 20px;">Trang sức</li>
+                              <li style="margin-right: 20px;">Trang sức cưới</li> -->
+                              <!-- <li style="margin-right: 20px;">Đồng hồ</li> -->
+                              <!-- <li style="margin-right: 20px;">Quà tặng</li>
+                              <li style="margin-right: 20px;">Thương hiệu</li>
+                              <li style="margin-right: 20px;">Blog</li>
+                              <li style="margin-right: 20px;">Khuyến mãi</li> -->
+                           </ul>
+                        </div>
+                        <div class="col-4">
+                           <form class="d-flex" role="search">
+                              <input class="form-control me-2" type="search"
+                                 placeholder="Tìm kiếm nhanh"
+                                 aria-label="Search" style="box-shadow: none;font-style:italic" />
+                           </form>
+                        </div>
+                     </div>
+                     <!-- </div> -->
+                  </nav>
+
+               </div>
+            </div>
+            <!-- </nav> -->
+         </header>
+      </xpath>
+   </template>
+</odoo>

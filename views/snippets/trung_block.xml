@@ -1,0 +1,8 @@
+<odoo>
+ 	​<template id="trung_block" name="Trung Block">
+<!-- Html đc bao phủ bởi phần section -->
+	​<section>
+ 	​	​<p>Le chi trung</p>
+	​</section>
+	​</template>
+</odoo>
